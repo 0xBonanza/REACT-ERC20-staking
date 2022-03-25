@@ -1,46 +1,11 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1>General</h1>
+<p>This is a test application deployed on the Kovan Testnet! Please use carefully <em><span style="color: #ff0000;"><strong>at your own risk </strong></span></em>!</p>
+<p>Visit here:&nbsp;<a href="https://0xBonanza.github.io/">https://0xBonanza.github.io/</a></p>
+<h1>Contract</h1>
+<p>You can have a look at the full Solidity contract and deployment scripts on the following repo: https://github.com/0xBonanza/Solidity-erc20-staking</p>
+<h1>Faucet&nbsp;</h1>
+<ul>
+<li>You will need Faucet ETH to pay for gas, available here: <a href="https://faucets.chain.link/">Chainlink Faucet</a></li>
+<li>You will also need Faucet ERC-20 tokens (only works with DAI and WETH for now), which you can get by swapping ETH here:&nbsp;<a href="https://app.uniswap.org/#/swap?chain=kovan">Uniswap</a></li>
+</ul>
+<p>&nbsp;</p>
