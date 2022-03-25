@@ -4,7 +4,7 @@ import {useEthers, useContractFunction} from "@usedapp/core"
 import ContributorLender from "../chain-info/contracts/ContributorLender.json"
 import ERC20 from "../chain-info/interfaces/IERC20.json"
 import networkMapping from "../chain-info/deployments/map.json"
-import {Contract} from "@ethersproject/contracts"
+import {Contract} from '@usedapp/core/node_modules/@ethersproject/contracts'
 import {constants, utils} from "ethers"
 import {useEffect, useState} from "react"
 

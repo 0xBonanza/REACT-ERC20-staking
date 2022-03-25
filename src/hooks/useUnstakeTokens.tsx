@@ -1,7 +1,7 @@
 import { useContractFunction, useEthers } from "@usedapp/core"
 import TokenFarm from "../chain-info/contracts/ContributorLender.json"
 import { utils, constants } from "ethers"
-import { Contract } from "@ethersproject/contracts"
+import {Contract} from '@usedapp/core/node_modules/@ethersproject/contracts'
 import networkMapping from "../chain-info/deployments/map.json"
 
 /**
