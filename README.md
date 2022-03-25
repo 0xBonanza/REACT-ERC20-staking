@@ -1,6 +1,6 @@
 <h1>General</h1>
 <p>This is a test application deployed on the Kovan Testnet! Please use carefully <em><span style="color: #ff0000;"><strong>at your own risk </strong></span></em>!</p>
-<p>Visit here:&nbsp;<a href="https://0xBonanza.github.io/">https://0xBonanza.github.io/</a></p>
+<p>Visit here:&nbsp;<a href="https://0xbonanza.github.io/REACT-ERC20-staking/">https://0xBonanza.github.io/</a></p>
 <h1>Contract</h1>
 <p>You can have a look at the full Solidity contract and deployment scripts on the following repo: https://github.com/0xBonanza/Solidity-erc20-staking</p>
 <h1>Faucet&nbsp;</h1>
