@@ -3,12 +3,7 @@ import {Token} from "../Main"
 import {useEthers, useTokenBalance} from "@usedapp/core"
 import {formatUnits} from "@ethersproject/units"
 import {BalanceMsg} from "../../components/BalanceMsg"
-import {
-  Button,
-  CircularProgress,
-  Snackbar,
-  makeStyles,
-} from "@material-ui/core"
+import {makeStyles} from "@material-ui/core"
 
 export interface WalletBalanceProps {
     token: Token
@@ -31,8 +26,12 @@ const useStyles = makeStyles((theme) => ({
 export const WalletBalance = ({token}: WalletBalanceProps) => {
     const {image, address, name} = token
     const {account} = useEthers()
+    console.log("account is " + account)
+    console.log("address is " + address)
     const tokenBalance = useTokenBalance(address, account)
+    console.log(tokenBalance)
     const formattedTokenBalance: number = tokenBalance ? parseFloat(formatUnits(tokenBalance, 18)) : 0
+    console.log(formattedTokenBalance)
     const classes = useStyles()
 
     return (

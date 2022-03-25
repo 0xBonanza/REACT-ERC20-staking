@@ -40,8 +40,11 @@ const useStyles = makeStyles((theme) => ({
 export const StakeForm = ({ token }: StakeFormProps) => {
 
   const { address: tokenAddress, name } = token
+
   const { account } = useEthers()
+  console.log(account)
   const tokenBalance = useTokenBalance(tokenAddress, account)
+  console.log(tokenBalance)
   const { notifications } = useNotifications()
   const classes = useStyles()
 

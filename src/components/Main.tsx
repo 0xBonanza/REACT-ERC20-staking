@@ -54,6 +54,7 @@ const useStyles = makeStyles((theme) => ({
 export const Main = () => {
     const { account } = useEthers()
     const {chainId} = useEthers()
+    console.log(chainId)
     const networkName = chainId ? helperConfig[chainId] : "dev"
     const classes = useStyles()
     const wethTokenAddress = chainId ? brownieConfig["networks"][networkName]["weth_token"] : constants.AddressZero
